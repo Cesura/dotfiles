@@ -1,0 +1,4 @@
+#!/bin/bash
+mpc clear
+mpc search Title $1 | mpc add
+mpc play
